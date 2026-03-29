@@ -1,0 +1,266 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b8a853cd-63d2-412c-b508-5661b058f9dc")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 177.8 88.9)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "173da92f-a18f-4d93-b086-c83296c4841a")
+		(property "Sheetname" "USB3"
+			(at 177.8 88.1884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB3.kicad_sch"
+			(at 177.8 102.1846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "traceDebug"
+				(path "/b8a853cd-63d2-412c-b508-5661b058f9dc"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 127)
+		(size 35.56 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1a750edd-e7fb-47d0-925b-add7c14ee359")
+		(property "Sheetname" "flash"
+			(at 101.6 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "flash.kicad_sch"
+			(at 101.6 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "traceDebug"
+				(path "/b8a853cd-63d2-412c-b508-5661b058f9dc"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 76.2)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1f03b3b8-9a8e-4c45-aff9-14dac50eff92")
+		(property "Sheetname" "FPGA"
+			(at 114.3 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fpga.kicad_sch"
+			(at 114.3 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "traceDebug"
+				(path "/b8a853cd-63d2-412c-b508-5661b058f9dc"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 81.28)
+		(size 12.7 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5dc647de-6655-43a2-9f64-e443c63369de")
+		(property "Sheetname" "DebugConnector"
+			(at 76.2 80.5684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DebugConnector.kicad_sch"
+			(at 76.2 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "traceDebug"
+				(path "/b8a853cd-63d2-412c-b508-5661b058f9dc"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 142.24 127)
+		(size 35.56 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7a6cb308-7a9e-41fc-b24c-d51f01fa093c")
+		(property "Sheetname" "HyperRAM"
+			(at 142.24 126.2884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "HyperRAM.kicad_sch"
+			(at 142.24 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "traceDebug"
+				(path "/b8a853cd-63d2-412c-b508-5661b058f9dc"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 127 50.8)
+		(size 25.4 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8311adc1-ef27-47e2-88cf-d8be40e7d79a")
+		(property "Sheetname" "microcontroller"
+			(at 127 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 127 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "traceDebug"
+				(path "/b8a853cd-63d2-412c-b508-5661b058f9dc"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
