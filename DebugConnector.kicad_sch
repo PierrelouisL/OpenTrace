@@ -2756,6 +2756,18 @@
 		)
 		(uuid "032ece06-d16d-4352-bebf-6bfc32b0e94d")
 	)
+	(text "Max speed of translation: 500MHz"
+		(exclude_from_sim no)
+		(at 243.586 51.308 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "0d4bd469-6893-4664-8787-8805d01e8f0a")
+	)
 	(text "low speed switching IOs"
 		(exclude_from_sim no)
 		(at 81.534 109.22 0)

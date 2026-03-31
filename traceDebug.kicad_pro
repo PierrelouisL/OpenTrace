@@ -196,8 +196,11 @@
       "track_widths": [
         0.0,
         0.0762,
+        0.09,
+        0.1565,
         0.25,
-        0.4
+        0.4,
+        0.6
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -237,6 +240,10 @@
         {
           "diameter": 0.55,
           "drill": 0.25
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.35
         }
       ],
       "zones_allow_external_fillets": false
@@ -543,7 +550,10 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "Net-(U1C-AVDD)": "rgb(68, 255, 100)",
+      "VDD1V": "rgb(255, 64, 234)"
+    },
     "netclass_assignments": {
       "/FPGA/D+": [
         "USB"
@@ -990,7 +1000,7 @@
         "uuid": "b8a853cd-63d2-412c-b508-5661b058f9dc"
       }
     ],
-    "used_designators": "Q5,Q7,#PWR49,#PWR80",
+    "used_designators": "L5,L7,C38-46,C48-50,C55-56,C58,C85-97",
     "variants": []
   },
   "sheets": [
