@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.2
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -138,15 +138,15 @@
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.3,
         "min_microvia_drill": 0.15,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.15,
         "min_track_width": 0.09,
-        "min_via_annular_width": 0.15,
+        "min_via_annular_width": 0.09,
         "min_via_diameter": 0.25,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -530,6 +530,8 @@
         "wire_width": 6
       },
       {
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.1565,
         "name": "HyperRAM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
@@ -555,6 +557,39 @@
       "VDD1V": "rgb(255, 64, 234)"
     },
     "netclass_assignments": {
+      "/DebugConnector/D+": [
+        "USB"
+      ],
+      "/DebugConnector/D-": [
+        "USB"
+      ],
+      "/DebugConnector/SSRX+": [
+        "USB"
+      ],
+      "/DebugConnector/SSRX-": [
+        "USB"
+      ],
+      "/DebugConnector/SSTX+": [
+        "USB"
+      ],
+      "/DebugConnector/SSTX-": [
+        "USB"
+      ],
+      "/DebugConnector/USB_CTRL_SCL1v8": [
+        "USB"
+      ],
+      "/DebugConnector/USB_CTRL_SDA1v8": [
+        "USB"
+      ],
+      "/DebugConnector/VBUS": [
+        "USB"
+      ],
+      "/DebugConnector/{USB3}": [
+        "USB"
+      ],
+      "/FPGA/CLK_96MHz": [
+        "HyperRAM"
+      ],
       "/FPGA/D+": [
         "USB"
       ],
@@ -562,6 +597,15 @@
         "USB"
       ],
       "/FPGA/HyperRAM_CLK": [
+        "HyperRAM"
+      ],
+      "/FPGA/HyperRAM_CLK+": [
+        "HyperRAM"
+      ],
+      "/FPGA/HyperRAM_CLK-": [
+        "HyperRAM"
+      ],
+      "/FPGA/HyperRAM_DM": [
         "HyperRAM"
       ],
       "/FPGA/HyperRAM_DM0": [
@@ -618,6 +662,9 @@
       "/FPGA/HyperRAM_DQ9": [
         "HyperRAM"
       ],
+      "/FPGA/HyperRAM_nRST": [
+        "HyperRAM"
+      ],
       "/FPGA/SSRX+": [
         "USB"
       ],
@@ -667,6 +714,9 @@
         "USB"
       ],
       "/FPGA/{HyperRAMx16}": [
+        "HyperRAM"
+      ],
+      "/FPGA/{HyperRAMx8}": [
         "HyperRAM"
       ],
       "/FPGA/{USB3}": [
@@ -780,6 +830,21 @@
       "GND": [
         "USB"
       ],
+      "Net-(U1D-PB32A{slash}VREF2_1)": [
+        "HyperRAM"
+      ],
+      "Net-(U1D-PB32B)": [
+        "HyperRAM"
+      ],
+      "Net-(U1D-PB34A{slash}PCLKT2_0)": [
+        "HyperRAM"
+      ],
+      "Net-(U1D-PB34B{slash}PCLKC2_0)": [
+        "HyperRAM"
+      ],
+      "Net-(U1D-PB36A)": [
+        "HyperRAM"
+      ],
       "Net-(U2-CE#)": [
         "HyperRAM"
       ],
@@ -791,6 +856,24 @@
       ],
       "Net-(U4-LX_B3)": [
         "MediumPwr"
+      ],
+      "unconnected-(U1C-PB4B{slash}LLC_GPLL0C_IN-PadM8)": [
+        "HyperRAM"
+      ],
+      "unconnected-(U1C-PB6B{slash}PCLKC4_1{slash}VREF4_2-PadG8)": [
+        "HyperRAM"
+      ],
+      "unconnected-(U1D-PB44A-PadJ2)": [
+        "HyperRAM"
+      ],
+      "unconnected-(U1D-PB44B-PadH2)": [
+        "HyperRAM"
+      ],
+      "unconnected-(U1D-PB46A{slash}PCLKT2_3-PadJ1)": [
+        "HyperRAM"
+      ],
+      "unconnected-(U1D-PB46B{slash}PCLKC2_3{slash}VREF2_2-PadH1)": [
+        "HyperRAM"
       ]
     },
     "netclass_patterns": []
@@ -800,7 +883,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "schematic_export/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -877,14 +960,110 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Max voltage",
+          "name": "Max voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "doc",
+          "name": "doc",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "mouser ref",
+          "name": "mouser ref",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "voltage",
+          "name": "voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Référence"
+      "sort_field": "Reference"
     },
     "bus_aliases": {
       "FlashConn": [
@@ -897,11 +1076,19 @@
         "HyperRAM_CLK",
         "HyperRAM_DQ[15..0]"
       ],
+      "HyperRAMx8": [
+        "HyperRAM_DM",
+        "HyperRAM_CLK+",
+        "HyperRAM_DQ[7..0]",
+        "HyperRAM_CLK-",
+        "HyperRAM_nRST"
+      ],
       "MCU_FPGA_CONN": [
         "SPI_CLK[2..0]",
         "SPI_MISO[2..0]",
         "SPI_MOSI[2..0]",
-        "SPI_NSS_0"
+        "SPI_NSS_0",
+        "UART_TX"
       ],
       "MCU_PERIPH": [
         "PWM[2..0]",
@@ -924,8 +1111,7 @@
         "SWO_TDO",
         "TraceD[3..0]",
         "TraceCLK_RTCK",
-        "VTREF",
-        "TDI",
+        "_TDI",
         "SDA",
         "SCL",
         "HighSpeedDirSel"
@@ -1000,7 +1186,7 @@
         "uuid": "b8a853cd-63d2-412c-b508-5661b058f9dc"
       }
     ],
-    "used_designators": "L5,L7,C38-46,C48-50,C55-56,C58,C85-97",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

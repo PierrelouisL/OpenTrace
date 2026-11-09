@@ -251,16 +251,16 @@
 		(uuid "111e7d3f-06eb-45bc-a936-56e15db2f4d1")
 	)
 	(junction
-		(at 115.57 50.8)
+		(at 152.4 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "26e7f2cc-dda5-413c-a539-bf9721b95c54")
+		(uuid "4aedc7e1-8fce-4e14-8fab-c6bbc5245b38")
 	)
 	(junction
 		(at 116.84 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "37d9d0f9-df2b-40c1-978f-ce1a4d78bb54")
+		(uuid "53d31e34-5be7-4ae0-a096-5a1d88e3b5e2")
 	)
 	(junction
 		(at 194.31 90.17)
@@ -269,10 +269,22 @@
 		(uuid "7a7e1e1b-d503-43bc-9fb3-d7755a062ea6")
 	)
 	(junction
+		(at 115.57 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8d653a46-ca09-4565-8533-1706557d479e")
+	)
+	(junction
 		(at 248.92 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa1a2e51-18a1-4b3d-a055-b9093f451935")
+	)
+	(junction
+		(at 194.31 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb67b07e-a151-41d9-a58e-a1fb7605efb6")
 	)
 	(junction
 		(at 245.11 143.51)
@@ -292,17 +304,17 @@
 	)
 	(bus
 		(pts
-			(xy 140.97 114.3) (xy 140.97 127)
+			(xy 55.88 111.76) (xy 73.66 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17309133-bc48-4b96-b44e-22f3a82aed33")
+		(uuid "0de26c6a-dde5-422d-9d31-ba424dcad950")
 	)
 	(wire
 		(pts
-			(xy 27.94 48.26) (xy 116.84 48.26)
+			(xy 68.58 48.26) (xy 116.84 48.26)
 		)
 		(stroke
 			(width 0)
@@ -312,7 +324,7 @@
 	)
 	(bus
 		(pts
-			(xy 50.8 107.95) (xy 114.3 107.95)
+			(xy 95.25 109.22) (xy 114.3 109.22)
 		)
 		(stroke
 			(width 0)
@@ -332,13 +344,23 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 53.34) (xy 118.11 53.34)
+			(xy 100.33 53.34) (xy 118.11 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "24b9cac6-de94-44ea-bcc9-eace88d062b3")
+	)
+	(bus
+		(pts
+			(xy 194.31 36.83) (xy 55.88 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2720d899-0a34-47fe-84c1-3eb30ce4e58d")
 	)
 	(bus
 		(pts
@@ -362,7 +384,7 @@
 	)
 	(bus
 		(pts
-			(xy 152.4 58.42) (xy 152.4 76.2)
+			(xy 152.4 58.42) (xy 152.4 67.31)
 		)
 		(stroke
 			(width 0)
@@ -372,7 +394,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 50.8) (xy 115.57 50.8)
+			(xy 66.04 50.8) (xy 115.57 50.8)
 		)
 		(stroke
 			(width 0)
@@ -402,7 +424,7 @@
 	)
 	(bus
 		(pts
-			(xy 50.8 105.41) (xy 114.3 105.41)
+			(xy 95.25 106.68) (xy 114.3 106.68)
 		)
 		(stroke
 			(width 0)
@@ -432,6 +454,16 @@
 	)
 	(bus
 		(pts
+			(xy 95.25 99.06) (xy 105.41 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54574317-4aa5-48fe-a86b-ab9cafc5e807")
+	)
+	(bus
+		(pts
 			(xy 215.9 64.77) (xy 215.9 72.39)
 		)
 		(stroke
@@ -442,7 +474,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 53.34) (xy 64.77 96.52)
+			(xy 100.33 53.34) (xy 100.33 96.52)
 		)
 		(stroke
 			(width 0)
@@ -460,9 +492,19 @@
 		)
 		(uuid "5e2ad5ac-2762-4a89-9605-c8c185cd40ef")
 	)
+	(bus
+		(pts
+			(xy 152.4 67.31) (xy 152.4 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "609dc8ef-71bb-46b6-b8e3-db872761359a")
+	)
 	(wire
 		(pts
-			(xy 50.8 96.52) (xy 64.77 96.52)
+			(xy 95.25 96.52) (xy 100.33 96.52)
 		)
 		(stroke
 			(width 0)
@@ -480,9 +522,19 @@
 		)
 		(uuid "795598ab-6880-4323-b00e-97ac2edb1d9c")
 	)
+	(bus
+		(pts
+			(xy 168.91 127) (xy 205.74 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85c03436-0841-4154-b787-d879f93a3191")
+	)
 	(wire
 		(pts
-			(xy 25.4 102.87) (xy 25.4 50.8)
+			(xy 66.04 104.14) (xy 66.04 50.8)
 		)
 		(stroke
 			(width 0)
@@ -492,13 +544,33 @@
 	)
 	(bus
 		(pts
-			(xy 107.95 80.01) (xy 114.3 80.01)
+			(xy 168.91 109.22) (xy 205.74 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8aba7e7e-10e1-4b4d-b3bd-688f62007074")
+		(uuid "8a603625-d012-4206-a32c-de60d26e6c66")
+	)
+	(bus
+		(pts
+			(xy 194.31 72.39) (xy 194.31 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92488a4e-b776-4aac-bb81-644218726b53")
+	)
+	(bus
+		(pts
+			(xy 55.88 36.83) (xy 55.88 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93d4b479-6e6e-40cc-b977-88d6d483e429")
 	)
 	(wire
 		(pts
@@ -522,7 +594,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 100.33) (xy 27.94 100.33)
+			(xy 73.66 101.6) (xy 68.58 101.6)
 		)
 		(stroke
 			(width 0)
@@ -550,6 +622,26 @@
 		)
 		(uuid "ab40128c-ac97-44a0-b2d9-c613a5a20dd0")
 	)
+	(bus
+		(pts
+			(xy 105.41 67.31) (xy 152.4 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9ded3f2-26a1-42b7-bb26-ece4e9cdd541")
+	)
+	(bus
+		(pts
+			(xy 105.41 99.06) (xy 105.41 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb0fcade-d808-48e8-81b0-4be17b8fc31a")
+	)
 	(wire
 		(pts
 			(xy 115.57 50.8) (xy 118.11 50.8)
@@ -562,7 +654,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 102.87) (xy 25.4 102.87)
+			(xy 73.66 104.14) (xy 66.04 104.14)
 		)
 		(stroke
 			(width 0)
@@ -652,7 +744,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 100.33) (xy 27.94 48.26)
+			(xy 68.58 101.6) (xy 68.58 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1116,8 +1208,8 @@
 		)
 	)
 	(sheet
-		(at 72.39 64.77)
-		(size 35.56 20.32)
+		(at 205.74 121.92)
+		(size 25.4 11.43)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1132,7 +1224,7 @@
 		)
 		(uuid "1a750edd-e7fb-47d0-925b-add7c14ee359")
 		(property "Sheetname" "flash"
-			(at 72.39 64.0584 0)
+			(at 205.74 121.2084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1143,7 +1235,7 @@
 			)
 		)
 		(property "Sheetfile" "flash.kicad_sch"
-			(at 72.39 85.6746 0)
+			(at 205.74 133.9346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1154,13 +1246,13 @@
 			)
 		)
 		(pin "{FlashConn}" bidirectional
-			(at 107.95 80.01 0)
+			(at 205.74 127 180)
 			(uuid "2638c766-3d79-4bfc-a78a-ee58df56e2e8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -1173,7 +1265,7 @@
 	)
 	(sheet
 		(at 114.3 76.2)
-		(size 54.61 38.1)
+		(size 54.61 60.96)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1199,7 +1291,7 @@
 			)
 		)
 		(property "Sheetfile" "fpga.kicad_sch"
-			(at 114.3 114.8846 0)
+			(at 114.3 137.7446 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1210,27 +1302,27 @@
 			)
 		)
 		(pin "{FlashConn}" output
-			(at 114.3 80.01 180)
+			(at 168.91 127 0)
 			(uuid "5f9cb314-ad08-47af-ace2-9de5ec4a3c6f")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "{HyperRAMx16}" bidirectional
-			(at 140.97 114.3 270)
+		(pin "{HyperRAMx8}" bidirectional
+			(at 168.91 109.22 0)
 			(uuid "59a6628b-dea9-44d2-b9d4-46681464a0c1")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "{TraceConnector}" bidirectional
-			(at 114.3 107.95 180)
+			(at 114.3 109.22 180)
 			(uuid "83a66096-c19a-424d-8936-449ad0dcdb17")
 			(effects
 				(font
@@ -1250,7 +1342,7 @@
 			)
 		)
 		(pin "{SpareFPGA}" input
-			(at 114.3 105.41 180)
+			(at 114.3 106.68 180)
 			(uuid "8eaa0123-4baf-4737-809b-9fd509dada31")
 			(effects
 				(font
@@ -1318,7 +1410,7 @@
 		)
 	)
 	(sheet
-		(at 29.21 95.25)
+		(at 73.66 95.25)
 		(size 21.59 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1334,7 +1426,7 @@
 		)
 		(uuid "5dc647de-6655-43a2-9f64-e443c63369de")
 		(property "Sheetname" "DebugConnector"
-			(at 29.21 94.5384 0)
+			(at 73.66 94.5384 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1345,7 +1437,7 @@
 			)
 		)
 		(property "Sheetfile" "DebugConnector.kicad_sch"
-			(at 29.21 114.8846 0)
+			(at 73.66 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1356,7 +1448,7 @@
 			)
 		)
 		(pin "{TraceConnector}" bidirectional
-			(at 50.8 107.95 0)
+			(at 95.25 109.22 0)
 			(uuid "fe187273-ff0e-4013-a61b-6cdeaafea1f3")
 			(effects
 				(font
@@ -1366,7 +1458,7 @@
 			)
 		)
 		(pin "MCU_BOOT_PIN" output
-			(at 29.21 102.87 180)
+			(at 73.66 104.14 180)
 			(uuid "6f36fc76-2ae3-4de3-841d-c0bcbc8a4dd9")
 			(effects
 				(font
@@ -1376,7 +1468,7 @@
 			)
 		)
 		(pin "nRST" output
-			(at 29.21 100.33 180)
+			(at 73.66 101.6 180)
 			(uuid "a5f7fdfb-2c49-4754-b072-fc504cbdf1f6")
 			(effects
 				(font
@@ -1386,7 +1478,7 @@
 			)
 		)
 		(pin "{SpareFPGA}" input
-			(at 50.8 105.41 0)
+			(at 95.25 106.68 0)
 			(uuid "262ef860-ebd1-439b-9488-9219bd4112f3")
 			(effects
 				(font
@@ -1396,13 +1488,33 @@
 			)
 		)
 		(pin "VTRef" output
-			(at 50.8 96.52 0)
+			(at 95.25 96.52 0)
 			(uuid "6428a4ae-5790-4e9e-a483-fe0d2dfc6e89")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "{MCU_FPGA_CONN}" bidirectional
+			(at 95.25 99.06 0)
+			(uuid "1a59c1ed-0a37-461f-88bd-ea58e906acf5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "{USB3}" input
+			(at 73.66 111.76 180)
+			(uuid "84b28f7b-02be-4f41-b090-f3feff7e8f00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -1414,8 +1526,8 @@
 		)
 	)
 	(sheet
-		(at 124.46 127)
-		(size 35.56 20.32)
+		(at 205.74 102.87)
+		(size 25.4 13.97)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1430,7 +1542,7 @@
 		)
 		(uuid "7a6cb308-7a9e-41fc-b24c-d51f01fa093c")
 		(property "Sheetname" "HyperRAM"
-			(at 124.46 126.2884 0)
+			(at 205.74 102.1584 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1441,7 +1553,7 @@
 			)
 		)
 		(property "Sheetfile" "HyperRAM.kicad_sch"
-			(at 124.46 147.9046 0)
+			(at 205.74 117.4246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1451,14 +1563,14 @@
 				(justify left top)
 			)
 		)
-		(pin "{HyperRAMx16}" bidirectional
-			(at 140.97 127 90)
+		(pin "{HyperRAMx8}" bidirectional
+			(at 205.74 109.22 180)
 			(uuid "1ebe5482-f701-497a-8225-40840389ceed")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
