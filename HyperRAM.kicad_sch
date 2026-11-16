@@ -1143,12 +1143,6 @@
 		(uuid "64036489-6140-456a-8d67-33650239f9ca")
 	)
 	(junction
-		(at 101.6 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "649c28e5-f788-4cfe-ba7b-49509a875201")
-	)
-	(junction
 		(at 152.4 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1206,6 +1200,15 @@
 			(type default)
 		)
 		(uuid "5c5bb865-4c44-47d4-9520-18367d124fe5")
+	)
+	(bus_entry
+		(at 48.26 99.06)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c8bbad4-b8b1-40f0-aa33-ef28cc70e577")
 	)
 	(bus_entry
 		(at 48.26 81.28)
@@ -1317,6 +1320,16 @@
 			(type default)
 		)
 		(uuid "0fd82293-b6fb-4eb0-8c07-737a45a6e367")
+	)
+	(wire
+		(pts
+			(xy 50.8 101.6) (xy 72.39 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11e7badd-df5c-4267-b91e-a6d8a0341738")
 	)
 	(wire
 		(pts
@@ -1517,16 +1530,6 @@
 			(type default)
 		)
 		(uuid "73df217a-c8d4-42e1-9357-49e64f964ced")
-	)
-	(wire
-		(pts
-			(xy 101.6 69.85) (xy 101.6 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7949f346-78ff-4bd3-ad1a-9041f5e3d9f4")
 	)
 	(bus
 		(pts
@@ -1737,6 +1740,26 @@
 			(type default)
 		)
 		(uuid "e4bc8ead-dd95-46e9-ac52-942f022cd871")
+	)
+	(bus
+		(pts
+			(xy 48.26 96.52) (xy 48.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e518077d-fed8-4935-ba72-1ee8b7aaf52b")
+	)
+	(wire
+		(pts
+			(xy 101.6 69.85) (xy 101.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5e6f778-a476-4bc8-a5ff-32eb179195e2")
 	)
 	(bus
 		(pts
@@ -2008,6 +2031,16 @@
 		)
 		(uuid "ae76d52c-3bb3-4772-b8a2-960856faa8a7")
 	)
+	(label "HyperRAM_nCS"
+		(at 118.11 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b525fcdf-0dbf-4bdd-b13f-38976f9b7354")
+	)
 	(label "HyperRAM_DQ4"
 		(at 72.39 88.9 180)
 		(effects
@@ -2037,6 +2070,16 @@
 			(justify left bottom)
 		)
 		(uuid "fbbd1c0d-2ac1-4375-b3bc-d2ea8bffe977")
+	)
+	(label "HyperRAM_nCS"
+		(at 72.39 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ffae753f-1d72-455a-b2c8-2bde6a86fe39")
 	)
 	(hierarchical_label "{HyperRAMx8}"
 		(shape bidirectional)
@@ -2504,7 +2547,7 @@
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "30eef64b-598c-469f-a2ae-2bf713a6f93c")
 		(property "Reference" "R40"
 			(at 102.108 62.23 0)
@@ -2517,7 +2560,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 101.6 67.818 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3209,85 +3252,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 101.6 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd161fc0-f3a4-428d-8ba2-ceb8504c8367")
-		(property "Reference" "#PWR052"
-			(at 101.6 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 101.6 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 101.6 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a054fc2-5cb8-40c9-9e3c-dbeb3a06038d")
-		)
-		(instances
-			(project "traceDebug"
-				(path "/b8a853cd-63d2-412c-b508-5661b058f9dc/7a6cb308-7a9e-41fc-b24c-d51f01fa093c"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PLib:VDD1V8")
 		(at 101.6 62.23 0)
 		(unit 1)
@@ -3438,87 +3402,6 @@
 			(project "traceDebug"
 				(path "/b8a853cd-63d2-412c-b508-5661b058f9dc/7a6cb308-7a9e-41fc-b24c-d51f01fa093c"
 					(reference "#PWR0145")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 101.6 76.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e9c94c24-e730-492d-b3b8-8a0c82a63812")
-		(property "Reference" "R7"
-			(at 102.108 72.39 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 101.6 77.978 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 99.822 76.2 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 101.6 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0a84f814-0943-4140-9f57-c9c67fa1a9a2")
-		)
-		(pin "1"
-			(uuid "07767cec-c037-4440-b78b-2625a7a39af5")
-		)
-		(instances
-			(project "traceDebug"
-				(path "/b8a853cd-63d2-412c-b508-5661b058f9dc/7a6cb308-7a9e-41fc-b24c-d51f01fa093c"
-					(reference "R7")
 					(unit 1)
 				)
 			)

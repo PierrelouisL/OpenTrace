@@ -662,6 +662,9 @@
       "/FPGA/HyperRAM_DQ9": [
         "HyperRAM"
       ],
+      "/FPGA/HyperRAM_nCS": [
+        "HyperRAM"
+      ],
       "/FPGA/HyperRAM_nRST": [
         "HyperRAM"
       ],
@@ -1081,7 +1084,8 @@
         "HyperRAM_CLK+",
         "HyperRAM_DQ[7..0]",
         "HyperRAM_CLK-",
-        "HyperRAM_nRST"
+        "HyperRAM_nRST",
+        "HyperRAM_nCS"
       ],
       "MCU_FPGA_CONN": [
         "SPI_CLK[2..0]",
@@ -1186,7 +1190,7 @@
         "uuid": "b8a853cd-63d2-412c-b508-5661b058f9dc"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR27,#PWR52,#PWR73,#PWR107,#PWR124,#PWR130,#PWR153-161,R69,R82-85,R91-92,R101-106,#FLG17,J1,J5,Q6-9,U2,U6-7,U14,C98-101,JP3,L11,Y3",
     "variants": []
   },
   "sheets": [
