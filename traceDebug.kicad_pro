@@ -541,11 +541,12 @@
       },
       {
         "diff_pair_gap": 0.3,
-        "diff_pair_width": 0.1725,
+        "diff_pair_width": 0.16,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.16,
         "tuning_profile": ""
       }
     ],
@@ -781,6 +782,12 @@
       ],
       "/HyperRAM/HyperRam_DQ9": [
         "HyperRAM"
+      ],
+      "/USB3/D_+": [
+        "USB"
+      ],
+      "/USB3/D_-": [
+        "USB"
       ],
       "/USB3/SSRX1+": [
         "USB"
@@ -1193,7 +1200,7 @@
         "uuid": "b8a853cd-63d2-412c-b508-5661b058f9dc"
       }
     ],
-    "used_designators": "R30-32,R84-85,R91,R106,#FLG17,L11,#PWR124,#PWR126-127,#PWR130,#PWR158-161,C99-101,U7",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
